@@ -1,0 +1,155 @@
+body {
+  background-color: #131313;
+  font-family:'Inter', sans-serif;
+  z-index: 1;  
+}
+
+.nav-link {
+  color: #949492;
+}
+
+.nav-link:hover {
+  color: white;
+}
+.nav-link:focus {
+  color: white;
+}
+
+#activeLink {
+  color: white;
+}
+
+.navbar-nav {
+  position: relative;
+}
+
+#sezioneDxNav{
+  margin-left: 28rem;
+}
+
+#bottoneSearch {
+  background-color: #131313;
+  border: none;
+}
+
+#modal {
+  background-color: #131313;
+}
+
+#modalButton {
+  background-color: #242424;
+  border: none;
+}
+
+#modal input {
+  background-color: #242424;
+  border: none;
+  width: 90%;
+  color: #eeeeee;
+}
+
+#bottoneUser {
+  background-color: #131313;
+  border: none;
+}
+
+h3{
+  color: white;
+}
+
+#bottoneGeneri {
+  background-color: #131313;
+  border-radius: 0%;
+  margin-left: 1rem;
+  font-size: 10pt;
+}
+
+.dropdown-menu {
+  background-color: #242424;
+}
+
+.dropdown-menu li a {
+  color: white;
+}
+
+#iconeDisplay {
+  color: white;
+  justify-content: flex-end;
+}
+
+#iconeDisplay i {
+  padding: 0.5rem;
+  color: #949492
+}
+
+#iconeDisplay button {
+  background-color: #131313;
+  border-color: #eeeeee;
+  border-width: 1px;
+}
+
+h5 {
+  color: #eeeeee;
+  margin: 1% 0 1% 2%;
+}
+
+.containerImmagini img {
+  width: 180px;
+}
+
+
+#social {
+  font-size: 10pt;
+  justify-content: flex-end; 
+}
+
+#social a {
+  color: #808080;
+}
+
+#footerLinks ul {
+  list-style-type: none;
+}
+#footerLinks a {
+  color: #808080;
+  font-size: 7pt;
+  text-decoration: none; 
+}
+
+#buttonFooter {
+  background-color: #131313;
+  border-color: #808080;
+  border-width: 1px;
+  color: #808080;
+  font-size: 7px;
+}
+
+footer p {
+  font-size: 5pt;
+}
+/* tema personalizzato */
+
+[data-bs-theme="black"] {
+  --bs-body-color: var(--bs-#131313;)
+  --bs-body-color-rgb: #{to-rgb($#131313)};
+  --bs-body-bg: var(--bs-#131313);
+  --bs-body-bg-rgb: #{to-rgb($#131313)};
+  --bs-tertiary-bg: #{$black-#131313};
+
+  .dropdown-menu {
+    --bs-dropdown-bg: #{mix($#131313-500, $#131313-600)};
+    --bs-dropdown-link-active-bg: #{$white-700};
+  }
+
+  .btn-secondary {
+    --bs-btn-bg: #{mix($#131313-600, $#131313-400, 0.5)};
+    --bs-btn-border-color: #{rgba($#131313, 0.25)};
+    --bs-btn-hover-bg: #{rgba(mix($white, $white-400, 0.5), 5%)};
+    --bs-btn-hover-border-color: #{rgba($white, 0.25)};
+    --bs-btn-active-bg: #{darken(mix($white-600, $white-400, 0.5), 10%)};
+    --bs-btn-active-border-color: #{rgba($#131313, 0.5)};
+    --bs-btn-focus-border-color: #{rgba($white, 0.5)};
+    --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.2);
+  }
+}
+
